@@ -41,25 +41,25 @@ int main()
         {
             case 1:
                 sum(&result, num1, num2);
-                printf("The answer is %d\n", result);
+                printf("%d + %d = %d\n", num1, num2, result);
                 break;
             case 2:
                 subtract(&result, num1, num2);
-                printf("The answer is %d\n", result);
+                printf("%d - %d = %d\n", num1, num2, result);
                 break;        
             case 3:
                 multiply(&result, num1, num2);
-                printf("The answer is %d\n", result);
+                printf("%d * %d = %d\n", num1, num2, result);
                 break;
             
             case 4:
                 divide(&result, num1, num2);
-                printf("The answer is %d\n", result);
+                printf("%d / %d = %d\n", num1, num2, result);
                 break;
                 
             case 5:
                 modulo(&result, num1, num2);
-                printf("The answer is %d\n", result);
+                printf("%d %% %d = %d\n", num1, num2, result);
                 break;
                 
             default:
