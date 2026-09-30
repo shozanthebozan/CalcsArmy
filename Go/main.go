@@ -16,8 +16,7 @@ func modulo(num1, num2, result *int){
 	*result = *num1 % *num2
 }
 func main(){
-	var operation, num1, num2 int
-	var result int
+	var operation, num1, num2, result int
 	fmt.Print("Enter 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division or 5 for Modulo:\n")
 	fmt.Scan(&operation)
 	fmt.Print("Enter 1st number:\n")
